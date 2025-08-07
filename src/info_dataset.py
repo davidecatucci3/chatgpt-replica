@@ -17,6 +17,7 @@ ds = load_dataset("SamuelYang/bookcorpus") # replica TorontoBookCorpus dataset
 # number of unique words: 1,316,420 x
 # number of words per sentence (mean): 13 v
 # number of words per sentence (median): 11 v
+# size: 4.8GB x
 
 num_words, num_expected_words = 0, 984846357
 set_unique_words, num_unqiue_words, num_expected_unique_words = set(), 0, 1316420
